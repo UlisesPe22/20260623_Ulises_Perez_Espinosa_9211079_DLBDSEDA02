@@ -1,36 +1,35 @@
 # ── Core data handling ────────────────────────────────────────────
 numpy==1.26.4
-pandas==2.0.3
+pandas==2.2.2
 
 # ── NLP & embeddings ──────────────────────────────────────────────
-sentence-transformers==5.5.1
-transformers==5.12.1
-tokenizers==0.22.2
-huggingface_hub==1.19.0
-safetensors==0.8.0
-keybert==0.9.0
+sentence-transformers==3.0.1
+transformers==4.44.2
+tokenizers==0.19.1
+huggingface_hub==0.24.6
+safetensors==0.4.3
+keybert==0.8.5
 nltk==3.8.1
 
 # ── Deep learning backend (SBERT) ─────────────────────────────────
-# For GPU (CUDA 12.1) install torch from the PyTorch index instead:
-#   pip install torch==2.2.1 --index-url https://download.pytorch.org/whl/cu121
-torch==2.2.1
+# Pure CPU PyTorch installation
+torch==2.3.1 --index-url https://download.pytorch.org/whl/cpu
 
 # ── Dimensionality reduction & clustering ─────────────────────────
-umap-learn==0.5.12
-hdbscan==0.8.44
-scikit-learn==1.9.0
-scipy==1.11.1
-numba==0.65.1
-pynndescent==0.6.0
+umap-learn==0.5.6
+hdbscan==0.8.37
+scikit-learn==1.5.0
+scipy==1.13.1
+numba==0.59.1
+pynndescent==0.5.12
 
 # ── Visualization ─────────────────────────────────────────────────
-matplotlib==3.7.2
+matplotlib==3.9.0
 
 # ── Jupyter (to run the notebooks) ────────────────────────────────
-jupyterlab==4.0.3
-ipykernel==6.25.1
+notebook==7.2.1
+ipykernel==6.29.4
 
 # ── Utilities ─────────────────────────────────────────────────────
-tqdm==4.66.2
-joblib==1.5.3
+tqdm==4.66.4
+joblib==1.4.2
