@@ -1,3 +1,6 @@
+# Project Advanced Data Analysis
+
+**Note: It is recommended to run these notebooks in Jupyter Notebook to preserve the formatting and intended layout of the cells.**
 ## Summary of Analysis
 This analysis aimed to identify the most relevant topics within a civic complaints dataset, in which real-world Indian citizens reported issues concerning public services and infrastructure. To accomplish this task, two distinct Pipelines were implemented: 
 * Pipeline A: encoded every complaint with SBERT, reduced the embeddings with UMAP, clustered them with HDBSCAN, and extracted topics using C-TF-IDF and KeyBERT.
